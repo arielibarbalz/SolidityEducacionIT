@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "numbers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "popPanic",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/errorAndException.sol": "PanicExample"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/errorAndException.sol": {
+			"keccak256": "0x0088af7b9b8f15c36a5b279028b41ad50ad2b628d7f5d0a105fdd888efc7277f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://561ab5fb223628298fdfe7a46b58237b4be3effd6f198ae98d36313fc153c5b5",
+				"dweb:/ipfs/QmYPHLG3qxHYRhS5kDNjhg5Td9ZSYieLKpQSxAWFV5DkGL"
+			]
+		}
+	},
+	"version": 1
+}

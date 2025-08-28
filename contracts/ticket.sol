@@ -64,11 +64,21 @@ contract Ticket{
     }
     // 5) Permitir cambiar la primera letra del nombre de tu persona por mayuscula si está en minuscula.
     function cambioLetra() external  {
-        require(cliente[msg.sender].id!=0);
+    //    require(cliente[msg.sender].id!=0);
         bytes memory _nombre = bytes(cliente[msg.sender].nombre);
         bytes1 _letra = _nombre[0];
         require(_letra > 0x60, "No es minuscula");
-        _letra = bytes1(uint8(_letra) + 0x20);
+        _letra = bytes1(uint8(_letra) - 0x20);
         bytes(cliente[msg.sender].nombre)[0] = _letra;
-     }   
+     }
+
+     fallback() external payable {   
+    }
+
+    receive() external payable { }
+
+    function getLoteryTicket() internal pure returns(bool){
+        return true;
+    }
+
 }

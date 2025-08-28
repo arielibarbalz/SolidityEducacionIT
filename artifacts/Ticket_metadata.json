@@ -11,6 +11,10 @@
 				"type": "constructor"
 			},
 			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address[]",
@@ -126,6 +130,10 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -156,11 +164,11 @@
 	},
 	"sources": {
 		"contracts/ticket.sol": {
-			"keccak256": "0x2ac112b9fb3ae9a99be94b9d332195ee727d49e12284b2a3aa140afaca5aa246",
+			"keccak256": "0x60bb09ac2afb9a2022a0a4558e30aedd62c1f269e02dd21f1993bb871480d411",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7e62374247ca8589cc3ea8744945519f7e6f5980f70e4d7431cf27d8bcec3452",
-				"dweb:/ipfs/QmRC6JQXjj8Y8Mt6E9HMcyvPD7jnSrAAHtHT3sTjM7upgs"
+				"bzz-raw://3ca0d0bbdccfb3f4566c6aff8b9c6c14fb9940fab48793e1370ad76771abc24b",
+				"dweb:/ipfs/QmPiuHTV7GbQYMHkrbK9wSj7kSUJvREmu8Hk74UN77ZqTG"
 			]
 		}
 	},
