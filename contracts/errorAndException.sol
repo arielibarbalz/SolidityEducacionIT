@@ -93,5 +93,5 @@ contract PanicDemo {
         return "Unknown panic code";
     }
 
-    //Prueba rama
+    //Prueba rama desktop
 }

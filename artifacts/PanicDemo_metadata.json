@@ -193,11 +193,11 @@
 	},
 	"sources": {
 		"contracts/errorAndException.sol": {
-			"keccak256": "0xd348e13fd71c675689319dcc6d7b3bdae0429ee744733157f9fc600ae4912343",
+			"keccak256": "0x36b0873b5a36171e29f7b250ebf19069cea723f11d75e80c6521aab7842c612d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://caea434fbca2ac051e07cd73b972a2a7a2a6587a3a3cb3fb51b6035b5eef8cd9",
-				"dweb:/ipfs/QmTwkhxDR4GssD6QKHDDtX1EtA5JCCPL4jFxDmQPfKoChy"
+				"bzz-raw://535ccde3b49668763b2bf23528fc34b7141c1195e55e03ef2de6228e09e8ae7c",
+				"dweb:/ipfs/QmeUSWQpNAzXstWbGdTCK87XuFKePQKfFKUvjfyjTXQYp6"
 			]
 		}
 	},
