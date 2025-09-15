@@ -27,4 +27,5 @@ contract Logs {
     function extraerWei() external onlyOwner(msg.sender){
         payable(msg.sender).transfer(address(this).balance);
     }
+    // Comentario para poder subir rama Kali
 }
