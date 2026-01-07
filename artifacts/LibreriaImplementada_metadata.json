@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "testLibreria",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/desafio3impl.sol": "LibreriaImplementada"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/desafio3.sol": {
+			"keccak256": "0x7b4e67fc1adcf4ff9bf52ae0d3c47ba848efbf9acce43fa8e8230730cf4eef13",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fc3c01a34da4ea25aef2815bb7e41ad0513f760c0e1698880828d4d978dd2709",
+				"dweb:/ipfs/QmNggSRmX9av2UrsrAmW2Cvr8Qw3gCf3ubnfnpZR3a29Ck"
+			]
+		},
+		"contracts/desafio3impl.sol": {
+			"keccak256": "0x26d51e7a0ceb4e9270569b346c08f2acd9914e33fe457210830048a8b86ec069",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f3b6d805a6e2bd3420a3f874fc04b56c8b05d93f13ea8333bc4f98751dfd552f",
+				"dweb:/ipfs/QmP7rbQFKX6Pf2ABwmV5AXVZFLkvc9LjjKf68RJJo8q3nM"
+			]
+		}
+	},
+	"version": 1
+}

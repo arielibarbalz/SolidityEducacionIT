@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "sumar",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "resut",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/desafio3CalcImpl.sol": "Calculadora"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/desafio3Calc.sol": {
+			"keccak256": "0xcbe728b54102c2520c829ec100ed54b627eb38844a94b1625a64126c17f04702",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5022186394c5d12e8868b23b33710d92eba69fc3e6db0a7bc7071a003da96af5",
+				"dweb:/ipfs/QmbM8eS9YiHcueZj4ZNZXpGmcJTPu6dTgqgtQSwjf65skk"
+			]
+		},
+		"contracts/desafio3CalcImpl.sol": {
+			"keccak256": "0xd5db9ed0f9962573659b026153ab9c2c673903b66c09b054a6a8fbbf0acc3412",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://37d5f927fbe8dd5149d34ca80e517e4d768449ff92ef7fe0ad42a70dfc1accd9",
+				"dweb:/ipfs/QmbpksmLQmAC2p8xx8xSMp6sxFeibn2fx2oF2XPSgc96bj"
+			]
+		}
+	},
+	"version": 1
+}
