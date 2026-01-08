@@ -3,10 +3,13 @@ pragma solidity >=0.7.0 <0.9.0;
 
 import "contracts/desafio3Calc.sol";
 
-contract Calculadora is ICalculadora{
 
-    function sumar(uint256 a, uint256 b) external pure override returns(uint256){
-        return a + b;
+contract Calculadora{
+
+    function sumarPorPolimorfismo(address direccionContrato, uint256 a, uint256 b) public pure returns (uint){
+
+        ICalculadora calculadora = ICalculadora(direccionContrato);
+        return calculadora.sumar(a, b);
     }
 
 }
