@@ -8,11 +8,6 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "direccionContrato",
-						"type": "address"
-					},
-					{
 						"internalType": "uint256",
 						"name": "a",
 						"type": "uint256"
@@ -23,7 +18,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "sumarPorPolimorfismo",
+				"name": "sumar",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -48,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/desafio3CalcImpl.sol": "Calculadora"
+			"contracts/desafio3Calc.sol": "ICalculadora"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -68,14 +63,6 @@
 			"urls": [
 				"bzz-raw://bcb9d9321a25b5c68bd57ef5d73e6c433e95ec5682ddbcb2b3ae2d46d944fcab",
 				"dweb:/ipfs/QmXRHecyRCSFRYKy64iXRyC59NV3nGaNZPvZwPsj7ZXJXU"
-			]
-		},
-		"contracts/desafio3CalcImpl.sol": {
-			"keccak256": "0xc337ab390fc5af2e05a17ab3e9689571eda411c388b7aac7b25216c30a7ef707",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://a8d2916a2e359aba1769543a3148ed8a99c56e786d90b15b13b379e01627155c",
-				"dweb:/ipfs/QmTPr548CtFygBjgcFhhkCsKWmuQAD1Qkc9fjB9acXrV6t"
 			]
 		}
 	},
