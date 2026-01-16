@@ -73,11 +73,11 @@
 	},
 	"sources": {
 		"contracts/log.sol": {
-			"keccak256": "0x7c81634b388b88e9c5e37197a28351fe38409414c0bf07b9f6fd2f7236587a63",
+			"keccak256": "0x5695909a9c351f68887d3d32f12d9a1b1ff148872c4378c7f44317eda1674c5f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bb28e6c349ce6396ca08cd5e94cd1d12c0b6f120e5bbdd59b644704e5e4b7ce3",
-				"dweb:/ipfs/QmQFZagdotkZF6sdPc9aKwejoh6Uc4LdhswXWe5yFHrbcB"
+				"bzz-raw://ea3daef9a9ab459693536a1c55cb9fa381a81a0b594dfc54d8cc877dd7333fe8",
+				"dweb:/ipfs/QmRsmXGuMcBs2LjngNsqCZZ3iz938UTHtpZpyNSVu68Mi2"
 			]
 		}
 	},
